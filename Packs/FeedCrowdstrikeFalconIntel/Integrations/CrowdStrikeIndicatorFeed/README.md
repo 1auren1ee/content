@@ -2,6 +2,8 @@ CrowdStrike Falcon Intel Indicator Feed
 
 ## Configure CrowdStrike Indicator Feed on Cortex XSOAR
 
+The required API Client Scopes for the Crowdstrike Indicator Feed are **IOCs(Indicators of Compromise)** *read and write* and **Indicators (FalconX)** *read*.
+
 1. Navigate to **Settings** > **Integrations** > **Servers & Services**.
 2. Search for CrowdStrike Indicator Feed.
 3. Click **Add instance** to create and configure a new integration instance.
